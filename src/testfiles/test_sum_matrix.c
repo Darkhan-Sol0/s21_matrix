@@ -7,7 +7,6 @@ START_TEST(sum_matrix_1) {
   int return_value, rows = 2, cols = 2;
   s21_create_matrix(rows, cols, &matrix1);
   s21_create_matrix(rows, cols, &matrix2);
-  s21_print_matrix(&matrix1);
   return_value = s21_sum_matrix(&matrix1, &matrix2, &matrix_result);
   s21_remove_matrix(&matrix1);
   s21_remove_matrix(&matrix2);
